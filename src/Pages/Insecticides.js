@@ -5,11 +5,11 @@ const Insecticides = () => {
   return (
     <div>
     <Navbar/>
-    <div className="bg-crops bg-no-repeat bg-cover bg-fixed pt-[10%] pb-[5%]">
+    <div className="bg-crops bg-no-repeat bg-cover bg-fixed lg:pt-[10%] pt-[25%] pb-[5%]">
          <h1 className="text-center font-mont text-[40px]  underline text-white ">Insecticides</h1>
       </div>
 
-<div className=" gap-5 pt-5 pl-16 grid grid-cols-4">
+<div className=" gap-5 pt-5 pl-16 grid lg:grid-cols-4 grid-cols-2">
       {Insectidata.map(product => (
         
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">

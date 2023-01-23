@@ -60,12 +60,12 @@ const Home = () => {
 
 
        <div className="absolute top-[40%] pl-[11%] text-white font-mont">
-      <h1 className="text-[48px] font-bold">Gujrat Pesticides Company</h1>
-      <h1 className="text-[36px]">is manufacturing very effective</h1>
-      <h1 className="text-[36px]">and <span className="text-[#2ACD30]">genuine products.</span></h1>
-      <button class="bg-transparent text-xl mt-10 hover:bg-[#2ACD30] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
+      <h1 className="lg:text-[48px] md:[30px] text-[30px] font-bold">Gujrat Pesticides Company</h1>
+      <h1 className="lg:text-[36px] md:[30px] text-30px">is manufacturing very effective</h1>
+      <h1 className="lg:text-[36px] md:[30px] text-30px">and <span className="text-[#2ACD30]">genuine products.</span></h1>
+      <a href="Contact"><button  class="bg-transparent lg:text-xl mt-10 hover:bg-[#2ACD30] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
   Contact Us 
-</button>
+</button></a>
       </div>
 
 

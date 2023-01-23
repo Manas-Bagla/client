@@ -5,26 +5,26 @@ const about = () => {
   return (
     <div>
       <Navbar/>
-      <div className="bg-crops bg-no-repeat bg-cover bg-fixed pt-[10%] pb-[5%]">
+      <div className="bg-crops bg-no-repeat bg-cover bg-fixed lg:pt-[10%] pt-[18%] pb-[5%]">
          <h1 className="text-center font-mont text-[40px]  underline text-white ">About Our Company</h1>
       </div>
       <div className="pt-[5%]">
-        <div className="flex gap-[2%] pb-[5%]">
+        <div className="lg:flex gap-[2%] pb-[5%]">
             <div className="pl-[11%] font-pop">
                 <h1>We are pleased to introduce ourselves as the leading and unmatched manufacturer of Insecticides, Herbicides, Weedicides, Fungicides, Bio-Fertilizers, Micro-Nutrients, and various Plant Growth Regulators. Established in 1991 as a trader of agrochemicals, we came into manufacturing in 2016 having aside a passion for quality control. Guided by the motto of “Super Quality, Super Farms”. We are establishing ourselves as a well-known manufacturer, supplier, trader, wholesaler, and buyer company, with proven specialization in manufacturing a diversified range of Pesticides, Fungicides, Herbicides, Bio-Pesticides, Bio-Fertilizers, Plant Growth Regulators, Micro Nutrients. Manufactured as per the latest production technology, these are safe, reliable, and environmentally friendly. <br></br> <br></br> Our entire range is highly appreciated by clients for its premium quality. Moreover, to ensure that our formulated range meets global quality standards, our designers and packaging experts carefully design the products as per the packaging size and requirements of the customers. These are packed in leakage-proof aluminum and plastic bottles and marketed in various capacities." We have high standards and our goal is to provide you with the highest quality products we possibly can.</h1>
             </div>
             <div  className="pr-[11%]">
-             <img src="/images/ab1.jpg"/>
+             <img src="/images/ab1.jpg" className="ml-[11%]"/>
             </div>
         </div>
       </div>
       <h1 className="pl-[11%] pb-[2.5%] text-[36px] font-mont underline">OUR MISSION 
 </h1>
-  <div className="flex gap-[2%] pb-[5%]">
+  <div className="lg:flex gap-[2%] pb-[5%]">
             <div className="pl-[11%] font-pop">
                 <img src="/images/mission.jpg"/>
             </div>
-            <div  className="pr-[11%] font-pop">
+            <div  className=" lg:pr-[11%] pl-[11%] font-pop">
              <h1>Super Quality Super Farms 
 We remain dedicated to satiating our customers on alL occasions by supplying quality products at prevailing competitive prices with no compromise on timeLines and also our steadfast commitment to ERA while encouraging endeavors development of new formulations. <br></br><br></br>
 To upgrade and effectively utilize operational resources to realize performance excellence and expand product portfolio ones an ongoing basis to ensure significant business growth. To manufacture high quaLiA products with continuous improvement by innovation and commitment to safety and the environment. <br></br><br></br>
@@ -35,7 +35,7 @@ The idea Mat encouraged to get into organic/arming is to improve the quatilyandt
         </div>
         <h1 className="pl-[11%] pb-[2.5%] text-[36px] font-mont underline">OUR Goals 
 </h1>
-  <div className="flex gap-[2%] pb-[5%]">
+  <div className="lg:flex gap-[2%] pb-[5%]">
             <div className="pl-[11%] font-pop">
                 
  <h1 className="font-pop">
@@ -58,7 +58,7 @@ The idea Mat encouraged to get into organic/arming is to improve the quatilyandt
 </h1>
             </div>
        
-            <div  className="pr-[11%] font-pop">
+            <div  className="lg:pr-[11%] pl-[11%] font-pop">
              <img src="images/goals2.jpg"/>
             </div>
         </div>
